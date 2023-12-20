@@ -26,7 +26,8 @@ def ask_question(name):
             print("Correct!")
             correct_answers_count += 1
         else:
-            print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
+            print(f"'{user_answer}' is wrong answer ;"
+                  f"(. Correct answer was '{correct_answer}'.")
             print("Let's try again, " + name + "!")
             break
 

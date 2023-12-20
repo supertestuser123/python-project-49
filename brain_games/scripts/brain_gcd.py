@@ -19,7 +19,8 @@ def ask_question(name):
                 break
         else:
             correct_gcd = gcd(num1, num2)
-            print(f"'{user_answer}' is the wrong answer ;(. Correct answer was '{correct_gcd}'.")
+            print(f"'{user_answer}' is the wrong answer "
+                  f";(. Correct answer was '{correct_gcd}'.")
             print(f"Let's try again, {name}!")
             break
 

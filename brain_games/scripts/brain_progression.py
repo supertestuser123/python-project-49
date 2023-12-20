@@ -31,7 +31,8 @@ def ask_question(name):
             print("Correct!")
             correct_answers_count += 1
         else:
-            print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{hidden_value}'.")
+            print(f"'{user_answer}' is wrong answer "
+                  f";(. Correct answer was '{hidden_value}'.")
             print(f"Let's try again, {name}!")
             break
 

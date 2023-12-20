@@ -30,7 +30,7 @@ def ask_question(name):
 def main():
     name = welcome_user()
 
-    print("Answer 'yes' if the number is even, otherwise answer 'no'.")
+    print('Answer "yes" if the number is even, otherwise answer "no".')
 
     ask_question(name)
 
